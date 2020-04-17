@@ -1,0 +1,158 @@
+/* all elements are sized to include padding and border in their total width and height. Padding and margin are set to zero except where specified */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Begin header elements styling */
+
+/* assigns a background color to the navigation bar, assigns a typeset to 'Horiseon' in accordance with brand style guide */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* applies 'height' and 'width' properties to display elements */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* colors 'seo' in the <h1> text 'Horiseon' */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* specifies dimensions of <ul> items, makes them float to the right of the viewport, and assigns them a typeset */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* specifies no list-item marker characters for <li> */
+.header div ul {
+    list-style-type: none;
+}
+
+/* applies 'height' and 'width' properties to display elements */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* End header elements styling */
+
+/* Begin content elements styling */
+
+p {
+    font-size: 16px;
+}
+
+/* sets background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* allows left and right blocks of page to sit side-by-side */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Begin left side of page elements styling */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* applies a common set of styling rules to the content on the left side of the page */
+#left-side-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#left-side-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* applies a common height and width to the images in the left side content elements*/
+#left-side-content img {
+    max-height: 200px;
+}
+
+/* End left side of page elements styling */
+/* Begin right side of page elements styling */
+
+/* applies a common set of styling rules to the content on the right side of the page */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+}
+
+/* applies common margins and centers <h3> */
+aside h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* applies a common height and width and blocks images in the right side content elements */
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* End right side of page elements styling */
+/* Begin footer elements styling */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
